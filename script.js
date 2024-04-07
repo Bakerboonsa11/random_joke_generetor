@@ -27,4 +27,4 @@ const getgift = () => {
 
 btn.addEventListener("click", getgift);
 
-// getgif
+// getgi
