@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fab22e;
+}
+.wrapper {
+  background-color: #15161a;
+  width: 70rem;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20%;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 20px 20px 40px rgba(97, 63, 0, 0, 4);
+}
+.emoje {
+  font-size: 8rem;
+}
+.gift {
+  color: #fff;
+  /* width: 20rem; */
+  /* height: auto; */
+  /* text-wrap: wrap; */
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: monospace;
+}
+button {
+  width: 25rem;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #fab22e;
+  color: #15161a;
+  margin: 2rem;
+  font-weight: 700;
+  font-family: monospace;
+  border-radius: 10px;
+}
