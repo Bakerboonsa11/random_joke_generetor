@@ -14,14 +14,17 @@ const getgift = () => {
     .then((item) => {
       if (item.type === "twopart") {
         const result = `${item.setup} ${item.delivery}`;
+        joke_container.style.color = "#fff";
         joke_container.textContent = `${result}`;
       } else {
         console.log(item.joke);
+        joke_container.style.color = "#fff";
         joke_container.textContent = `${item.joke}`;
       }
     })
     .catch((error) => {
-      console.log(error);
+      joke_container.textContent = "some thing is going wrong";
+      joke_container.style.color = "red";
     });
 };
 
